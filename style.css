@@ -1,0 +1,76 @@
+.myForm{
+	width: 100%;
+	max-width: 640px;
+	margin: 50px auto;
+	box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	padding: 10px 15px;
+	
+}
+.form-heading{
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px solid #efefef;
+	padding: 5px 0;
+	margin-bottom: 15px;
+}
+
+.form-group{
+	
+}
+.form-group label span{
+	color: red;
+}
+
+.birthday{
+	display: inline-block;
+}
+h4.heading{
+	font-weight: bold;
+	border-bottom: 2px solid #efefef;
+	padding: 5px 0;
+	margin-bottom: 15px;
+}
+
+#employment,#skill{
+	position: relative;
+	padding-bottom: 20px;
+}
+.employment,.skill{
+	position: relative;
+	padding-bottom: 5px;
+}
+
+
+
+.add-btn,.remove-btn{
+	position: absolute;
+	font-size: 1em;
+	padding: 5px;
+	width: 26px;
+	height: 26px;
+	text-align: center;
+	cursor: pointer;
+	
+}
+.add-btn{
+	right:0;
+	bottom:0;	
+	background: green;
+	color: #FFF;
+}
+.remove-btn{
+	right:-15px;
+	top:-15px;
+	background: #e00;
+}
+.remove-btn i{
+	border-radius: 15px;
+}
+
+.submit-btn{
+	float: right;
+	margin: 15px 10px;
+}
+.error{
+	color: red;
+}
