@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    SetAddressAutoCompleteForControl(document.getElementById('currentaddress'));
     SetAddressAutoCompleteForControl(document.getElementById('companyaddress_1'));
     $('#employment').on('click', '.add-btn', function () {
         var html = "";

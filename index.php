@@ -88,7 +88,7 @@ $months = array(
                     <div class="form-group">
                         <label class="col-md-4 control-label">Current Address<span>*</span></label>
                         <div class="col-md-8">
-                            <input  type="text" name="currentaddress" class="form-control"  value="" placeholder="Current Address" required/>
+                            <input  type="text" id="currentaddress" name="currentaddress" class="form-control"  value="" placeholder="Current Address" required/>
                         </div>
                     </div>
                     <div class="form-group">
