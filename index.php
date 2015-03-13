@@ -30,7 +30,7 @@ $months = array(
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
         <script src="https://maps.google.com/maps/api/js?v=3.13&sensor=false&libraries=places" type="text/javascript"></script>
-        <script src="assets/js/jquery.validate.min.js"></script>
+        <script src="assets/js/jquery.validate.js"></script>
         <script src="assets/js/custom.js"></script>
 
     </head>
@@ -121,7 +121,7 @@ $months = array(
                             <div class="form-group">
                                 <label class="col-md-4 control-label">Phone Number<span>*</span></label>
                                 <div class="col-md-8">
-                                    <input  type="number" name="phonenumber[]" class="form-control"  value="" placeholder="Phone Number" required/>
+                                    <input  type="tel" name="phonenumber[]" class="form-control"  value="" placeholder="Phone Number" required/>
                                 </div>
                             </div>
                         </div>
